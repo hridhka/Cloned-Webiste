@@ -179,3 +179,31 @@ footer{
     margin-left: 46px;
     align-items: center;
 }
+
+@media (max-width: 768px){
+    .logo{
+        width: 30%;
+        margin: 10px;
+    }
+    nav ul{
+        flex-direction:column;
+        align-items: center;
+    }
+    .title.name{
+        font-size:50px;
+    }
+    .top{
+        background-size:cover;
+    }
+    footer{
+        padding:10px;
+    }
+    .images{
+        flex-direction:column;
+        align-items:center;
+    }
+    .foot-bottom{
+        flex-direction:column;
+        align-items:center;
+    }
+    }
